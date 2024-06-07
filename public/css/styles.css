@@ -1,0 +1,121 @@
+/* public/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Arial, sans-serif; 
+    color: rgb(12, 5, 5);
+    text-align: center;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #343a40;
+    color: white;
+}
+
+a {
+   
+    background-color: #358bdc;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #2399c8;
+    padding: 12px 20px;
+}
+
+.bor{
+    border-width: 30px;
+    border-style: groove;
+    background-color: #5c595b;
+    padding: 15px 45px;
+    text-align: center;
+}
+
+.bor1{
+    border-width: 5px;
+    border-radius: 10px ;
+    padding: 15px 45px;
+    border-style: groove;
+
+}
+
+.lee{
+    text-align: right;
+}
+
+form {
+    display: inline;
+    
+}
+
+form button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c82333;
+    padding: 12px 20px;
+}
+
+ div{
+    font-family: Arial, sans-serif; 
+    padding: 15px;
+    text-align: center;
+
+ }
+
+ input {
+    width: 16%;
+    display:inline;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    
+  }
+
+  textarea {
+    width: 20%;
+    height: 60px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    
+  }
+
+  label{
+    display: inline-block;
+  }
